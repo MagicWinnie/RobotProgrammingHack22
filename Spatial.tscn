@@ -27,6 +27,7 @@ signal_buses_data/bus_1_/delete_bus = null
 read_from_tool_config = null
 save_to_tool_config = null
 add_tool = null
+tool_1/trail = true
 tool_1/clear_trail = null
 read_from_frame_config = null
 save_to_frame_config = null
@@ -48,11 +49,6 @@ base_rotation = Vector3( -1.09934e-12, -90, 0 )
 
 [node name="grab" parent="a12_1450/base/link1/link2/link3/link4/link5/link6" index="1" instance=ExtResource( 2 )]
 redirect_selection = true
-width_tip_of_arms_mm = 10.0
-width_of_arms_mm = 54.0
-lenght_of_arms_mm = 64.0
-radius_of_flange_mm = 42.0
-hight_of_flange_mm = 23.0
 
 [node name="RcsSignalsHolder" type="RcsSignalsHolder" parent="a12_1450"]
 di_count = 8
