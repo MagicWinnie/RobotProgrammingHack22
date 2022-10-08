@@ -10,6 +10,7 @@
 [node name="Spatial" type="Spatial"]
 
 [node name="a12_1450" parent="." instance=ExtResource( 1 )]
+jog = true
 robot_dir = "res://robots/a12"
 restart_robot = null
 signal_bus_count = 1
@@ -80,15 +81,15 @@ executive_devices/1/delete_device = null
 [node name="working_area" parent="." instance=ExtResource( 3 )]
 
 [node name="bottle" parent="." instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 800, 195, -250 )
+transform = Transform( 1, -1.4131e-05, -3.19473e-05, 1.40665e-05, 1, 1.96101e-05, 3.19319e-05, -1.9528e-05, 1, 800.007, 195.084, -249.989 )
 
 [node name="tripod" parent="." instance=ExtResource( 5 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1200, 205, 235 )
 
 [node name="tube" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1200, 205, 310 )
+transform = Transform( 1, 4.86499e-05, 1.40662e-05, -4.85479e-05, 1, 0.000103086, -1.40492e-05, -0.00010318, 1, 1199.98, 203.299, 310.004 )
 
 [node name="tube2" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1200, 205, 160 )
+transform = Transform( 1, 6.232e-07, -8.22e-06, -4.76983e-07, 1, -2.25306e-05, 8.17991e-06, 2.25187e-05, 1, 1200, 205.039, 160 )
 
 [editable path="a12_1450"]
