@@ -186,37 +186,37 @@
 				<double>12.015000000000001</double>
 			</JointsValue>
 		</Joint>
-		<Joint name="pour_pt_4">
-			<DateChanged>2022-10-06T23:30:29</DateChanged>
+		<Joint name="ver2_2">
+			<DateChanged>2022-10-07T21:23:49</DateChanged>
 			<JointsValue>
-				<double>10.506942148760331</double>
-				<double>-37.679504132231401</double>
-				<double>-53.245785123966932</double>
-				<double>-38.922772277227722</double>
-				<double>20.616</double>
-				<double>39.689999999999998</double>
+				<double>17.199669421487602</double>
+				<double>-14.904297520661157</double>
+				<double>-30.55239669421487</double>
+				<double>0</double>
+				<double>-43.008000000000003</double>
+				<double>0</double>
 			</JointsValue>
 		</Joint>
-		<Joint name="pour_pt_2">
-			<DateChanged>2022-10-06T23:28:19</DateChanged>
+		<Joint name="ver2_1">
+			<DateChanged>2022-10-07T21:21:35</DateChanged>
 			<JointsValue>
-				<double>22.208429752066117</double>
-				<double>-8.3766942148760322</double>
-				<double>-22.083471074380167</double>
-				<double>-13.17029702970297</double>
-				<double>-52.997999999999998</double>
-				<double>27.471599999999999</double>
+				<double>16.997355371900827</double>
+				<double>-25.341322314049588</double>
+				<double>-57.284628099173553</double>
+				<double>0</double>
+				<double>33.156000000000006</double>
+				<double>0</double>
 			</JointsValue>
 		</Joint>
-		<Joint name="pour_pt_3">
-			<DateChanged>2022-10-06T23:29:37</DateChanged>
+		<Joint name="ver2_3">
+			<DateChanged>2022-10-07T21:27:50</DateChanged>
 			<JointsValue>
-				<double>26.457024793388431</double>
-				<double>-19.245123966942149</double>
-				<double>-35.495702479338846</double>
-				<double>-45.885742574257428</double>
-				<double>-31.541999999999998</double>
-				<double>56.998799999999996</double>
+				<double>17.199669421487602</double>
+				<double>16.106280991735538</double>
+				<double>3.2950413223140496</double>
+				<double>0</double>
+				<double>-102.6075</double>
+				<double>0</double>
 			</JointsValue>
 		</Joint>
 		<Joint name="bottle_up">
@@ -272,17 +272,6 @@
 				<double>0</double>
 				<double>15.534000000000001</double>
 				<double>35.978400000000001</double>
-			</JointsValue>
-		</Joint>
-		<Joint name="pour_pt_1">
-			<DateChanged>2022-10-06T23:10:23</DateChanged>
-			<JointsValue>
-				<double>17.373719008264462</double>
-				<double>10.831239669421489</double>
-				<double>-2.3638016528925618</double>
-				<double>3.3415841584158414</double>
-				<double>-90.347999999999999</double>
-				<double>16.232400000000002</double>
 			</JointsValue>
 		</Joint>
 	</Joints>
