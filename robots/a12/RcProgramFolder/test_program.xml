@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalData>
+	<Points/>
+	<Joints>
+		<Joint name="under_table">
+			<DateChanged>2022-10-05T17:24:29</DateChanged>
+			<JointsValue>
+				<double>0</double>
+				<double>45.999999999999993</double>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+			</JointsValue>
+		</Joint>
+		<Joint name="home">
+			<DateChanged>2022-10-05T17:24:13</DateChanged>
+			<JointsValue>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+			</JointsValue>
+		</Joint>
+		<Joint name="under_bottle">
+			<DateChanged>2022-10-05T17:55:15</DateChanged>
+			<JointsValue>
+				<double>15.985785123966942</double>
+				<double>7.9571900826446287</double>
+				<double>-37.672066115702478</double>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+			</JointsValue>
+		</Joint>
+	</Joints>
+</LocalData>

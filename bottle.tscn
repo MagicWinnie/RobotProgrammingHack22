@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://bottle.obj" type="ArrayMesh" id=1]
 
@@ -7,10 +7,6 @@ radius = 21.0
 height = 40.0
 
 [sub_resource type="CylinderShape" id=2]
-radius = 25.0
-height = 5.0
-
-[sub_resource type="CylinderShape" id=3]
 radius = 66.49
 height = 180.0
 
@@ -20,18 +16,14 @@ height = 180.0
 manipulatable = true
 
 [node name="MeshInstance" type="MeshInstance" parent="."]
-transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 800, 195, -250 )
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0, 0, 0 )
 mesh = ExtResource( 1 )
 material/0 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 800, 391.964, -250 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 197, 0 )
 shape = SubResource( 1 )
 
 [node name="CollisionShape2" type="CollisionShape" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 800, 413.916, -250 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 90, 0 )
 shape = SubResource( 2 )
-
-[node name="CollisionShape3" type="CollisionShape" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 800, 285, -250 )
-shape = SubResource( 3 )

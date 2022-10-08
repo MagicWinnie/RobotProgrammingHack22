@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://components_lib/a12_1450/a12_1450.tscn" type="PackedScene" id=1]
 [ext_resource path="res://components_lib/grab/grab.tscn" type="PackedScene" id=2]
 [ext_resource path="res://working_area.tscn" type="PackedScene" id=3]
 [ext_resource path="res://bottle.tscn" type="PackedScene" id=4]
+[ext_resource path="res://tripod.tscn" type="PackedScene" id=5]
+[ext_resource path="res://tube.tscn" type="PackedScene" id=6]
 
 [node name="Spatial" type="Spatial"]
 
@@ -82,5 +84,15 @@ executive_devices/1/delete_device = null
 [node name="working_area" parent="." instance=ExtResource( 3 )]
 
 [node name="bottle" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 800, 195, -250 )
+
+[node name="tripod" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1200, 205, 235 )
+
+[node name="tube" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1200, 205, 310 )
+
+[node name="tube2" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1200, 205, 160 )
 
 [editable path="a12_1450"]

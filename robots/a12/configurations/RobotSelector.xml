@@ -4,5 +4,6 @@
 	<safety_type>SoftwareSafetyState</safety_type>
 	<robot_tag>SixAxisArm</robot_tag>
 	<use_drives_controller>true</use_drives_controller>
+	<check_serial_number>true</check_serial_number>
 	<!-- <robot_tag>ThreeWayMachine</robot_tag> -->
 </RobotSelector>

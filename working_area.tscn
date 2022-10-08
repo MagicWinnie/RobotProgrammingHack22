@@ -7,16 +7,16 @@ extents = Vector3( 325, 105, 400 )
 
 [node name="working_area" type="Spatial"]
 
-[node name="KinematicBody" type="KinematicBody" parent="." groups=[
+[node name="working_area" type="KinematicBody" parent="." groups=[
 "grabable",
 ]]
 manipulatable = true
 
-[node name="MeshInstance" type="MeshInstance" parent="KinematicBody"]
+[node name="MeshInstance" type="MeshInstance" parent="working_area"]
 transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0, -10, 0 )
 mesh = ExtResource( 1 )
 material/0 = null
 
-[node name="CollisionShape" type="CollisionShape" parent="KinematicBody"]
+[node name="CollisionShape" type="CollisionShape" parent="working_area"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 975, 95, 0 )
 shape = SubResource( 1 )
