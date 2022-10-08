@@ -28,7 +28,6 @@ signal_buses_data/bus_1_/delete_bus = null
 read_from_tool_config = null
 save_to_tool_config = null
 add_tool = null
-tool_1/trail = true
 tool_1/clear_trail = null
 read_from_frame_config = null
 save_to_frame_config = null
@@ -86,15 +85,15 @@ executive_devices/1/delete_device = null
 [node name="working_area" parent="." instance=ExtResource( 3 )]
 
 [node name="bottle" parent="." instance=ExtResource( 4 )]
-transform = Transform( 1, 3.13617e-06, 2.86949e-05, -3.12907e-06, 1, 1.38873e-05, -2.87049e-05, -1.38485e-05, 1, 799.978, 194.961, -249.995 )
+transform = Transform( 1, 7.72144e-05, 0.000293227, -7.68144e-05, 1, -8.83182e-05, -0.000293097, 8.8146e-05, 1, 799.862, 194.214, -250.039 )
 
 [node name="tripod" parent="." instance=ExtResource( 5 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1200, 205, 235 )
 
 [node name="tube" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 4.865e-05, 1.40662e-05, -4.85479e-05, 1, 0.000103086, -1.40492e-05, -0.00010318, 1, 1199.98, 203.299, 310.004 )
+transform = Transform( 1, 9.67101e-05, 3.15291e-06, -9.65607e-05, 1, 0.000213473, -3.08052e-06, -0.000213562, 1, 1199.96, 203.428, 310.038 )
 
 [node name="tube2" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 6.232e-07, -8.22e-06, -4.76924e-07, 1, -2.25306e-05, 8.17991e-06, 2.25187e-05, 1, 1200, 205.039, 160 )
+transform = Transform( 1, -3.18089e-05, 0.000154488, 3.20396e-05, 1, -8.95414e-05, -0.000154563, 8.95791e-05, 1, 1200.24, 207.424, 159.942 )
 
 [editable path="a12_1450"]

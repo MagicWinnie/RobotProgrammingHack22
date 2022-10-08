@@ -3,12 +3,12 @@
 	<Points>
 		<Point name="tube_1_down">
 			<coord>
-				<Xmm>1083.7314907472937</Xmm>
-				<Ymm>-310.01224338388653</Ymm>
-				<Zmm>302.80623210564426</Zmm>
+				<Xmm>1083.76</Xmm>
+				<Ymm>-310.02999999999997</Ymm>
+				<Zmm>275</Zmm>
 				<RxDeg>0</RxDeg>
-				<RyDeg>-89.983201956259123</RyDeg>
-				<RzDeg>-179.99254161710564</RzDeg>
+				<RyDeg>-89.979999999994988</RyDeg>
+				<RzDeg>-179.99000000000001</RzDeg>
 			</coord>
 			<Configuration>
 				<Params>
@@ -24,16 +24,16 @@
 			</Configuration>
 			<SC>0</SC>
 			<TeachTool>Flange</TeachTool>
-			<DateChanged>2022-10-06T10:27:17</DateChanged>
+			<DateChanged>2022-10-06T21:37:07</DateChanged>
 		</Point>
 		<Point name="tube_2_down">
 			<coord>
-				<Xmm>1083.74239184526</Xmm>
-				<Ymm>-160.33537568415923</Ymm>
-				<Zmm>302.85686245772422</Zmm>
+				<Xmm>1083.74</Xmm>
+				<Ymm>-160.34</Ymm>
+				<Zmm>275</Zmm>
 				<RxDeg>0</RxDeg>
-				<RyDeg>-89.979866360456825</RyDeg>
-				<RzDeg>-179.99167836331208</RzDeg>
+				<RyDeg>-89.979999999994988</RyDeg>
+				<RzDeg>-179.99000000000001</RzDeg>
 			</coord>
 			<Configuration>
 				<Params>
@@ -49,7 +49,7 @@
 			</Configuration>
 			<SC>0</SC>
 			<TeachTool>Flange</TeachTool>
-			<DateChanged>2022-10-06T10:28:40</DateChanged>
+			<DateChanged>2022-10-06T21:37:17</DateChanged>
 		</Point>
 		<Point name="tube_1_up_xyz">
 			<coord>
@@ -186,37 +186,37 @@
 				<double>12.015000000000001</double>
 			</JointsValue>
 		</Joint>
-		<Joint name="pouring_close">
-			<DateChanged>2022-10-06T10:50:33</DateChanged>
+		<Joint name="pour_pt_4">
+			<DateChanged>2022-10-06T23:30:29</DateChanged>
 			<JointsValue>
-				<double>22.904628099173554</double>
-				<double>-11.890413223140499</double>
-				<double>-46.251074380165292</double>
-				<double>36.798415841584159</double>
-				<double>40.474500000000006</double>
-				<double>-29.905200000000001</double>
+				<double>10.506942148760331</double>
+				<double>-37.679504132231401</double>
+				<double>-53.245785123966932</double>
+				<double>-38.922772277227722</double>
+				<double>20.616</double>
+				<double>39.689999999999998</double>
 			</JointsValue>
 		</Joint>
-		<Joint name="pouring_close_rotate">
-			<DateChanged>2022-10-06T10:51:09</DateChanged>
+		<Joint name="pour_pt_2">
+			<DateChanged>2022-10-06T23:28:19</DateChanged>
 			<JointsValue>
-				<double>22.916528925619833</double>
-				<double>-11.887438016528925</double>
-				<double>-46.245123966942145</double>
-				<double>36.875049504950489</double>
-				<double>40.4925</double>
-				<double>-128.22120000000001</double>
+				<double>22.208429752066117</double>
+				<double>-8.3766942148760322</double>
+				<double>-22.083471074380167</double>
+				<double>-13.17029702970297</double>
+				<double>-52.997999999999998</double>
+				<double>27.471599999999999</double>
 			</JointsValue>
 		</Joint>
-		<Joint name="pouring_far">
-			<DateChanged>2022-10-06T10:52:33</DateChanged>
+		<Joint name="pour_pt_3">
+			<DateChanged>2022-10-06T23:29:37</DateChanged>
 			<JointsValue>
-				<double>11.16297520661157</double>
-				<double>-8.3499173553719004</double>
-				<double>-43.667107438016529</double>
-				<double>18.816237623762376</double>
-				<double>36.795000000000002</double>
-				<double>-15.528599999999999</double>
+				<double>26.457024793388431</double>
+				<double>-19.245123966942149</double>
+				<double>-35.495702479338846</double>
+				<double>-45.885742574257428</double>
+				<double>-31.541999999999998</double>
+				<double>56.998799999999996</double>
 			</JointsValue>
 		</Joint>
 		<Joint name="bottle_up">
@@ -272,6 +272,17 @@
 				<double>0</double>
 				<double>15.534000000000001</double>
 				<double>35.978400000000001</double>
+			</JointsValue>
+		</Joint>
+		<Joint name="pour_pt_1">
+			<DateChanged>2022-10-06T23:10:23</DateChanged>
+			<JointsValue>
+				<double>17.373719008264462</double>
+				<double>10.831239669421489</double>
+				<double>-2.3638016528925618</double>
+				<double>3.3415841584158414</double>
+				<double>-90.347999999999999</double>
+				<double>16.232400000000002</double>
 			</JointsValue>
 		</Joint>
 	</Joints>
