@@ -50,6 +50,11 @@ base_rotation = Vector3( -1.09934e-12, -90, 0 )
 
 [node name="grab" parent="a12_1450/base/link1/link2/link3/link4/link5/link6" index="1" instance=ExtResource( 2 )]
 redirect_selection = true
+width_tip_of_arms_mm = 10.0
+width_of_arms_mm = 54.0
+lenght_of_arms_mm = 64.0
+radius_of_flange_mm = 42.0
+hight_of_flange_mm = 23.0
 
 [node name="RcsSignalsHolder" type="RcsSignalsHolder" parent="a12_1450"]
 di_count = 8
@@ -81,15 +86,15 @@ executive_devices/1/delete_device = null
 [node name="working_area" parent="." instance=ExtResource( 3 )]
 
 [node name="bottle" parent="." instance=ExtResource( 4 )]
-transform = Transform( 1, -1.4131e-05, -3.19473e-05, 1.40665e-05, 1, 1.96101e-05, 3.19319e-05, -1.9528e-05, 1, 800.007, 195.084, -249.989 )
+transform = Transform( 1, 3.13617e-06, 2.86949e-05, -3.12907e-06, 1, 1.38873e-05, -2.87049e-05, -1.38485e-05, 1, 799.978, 194.961, -249.995 )
 
 [node name="tripod" parent="." instance=ExtResource( 5 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1200, 205, 235 )
 
 [node name="tube" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 4.86499e-05, 1.40662e-05, -4.85479e-05, 1, 0.000103086, -1.40492e-05, -0.00010318, 1, 1199.98, 203.299, 310.004 )
+transform = Transform( 1, 4.865e-05, 1.40662e-05, -4.85479e-05, 1, 0.000103086, -1.40492e-05, -0.00010318, 1, 1199.98, 203.299, 310.004 )
 
 [node name="tube2" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 6.232e-07, -8.22e-06, -4.76983e-07, 1, -2.25306e-05, 8.17991e-06, 2.25187e-05, 1, 1200, 205.039, 160 )
+transform = Transform( 1, 6.232e-07, -8.22e-06, -4.76924e-07, 1, -2.25306e-05, 8.17991e-06, 2.25187e-05, 1, 1200, 205.039, 160 )
 
 [editable path="a12_1450"]

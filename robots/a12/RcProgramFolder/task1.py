@@ -29,8 +29,13 @@ joint_ptp("bottle_up",100.0,100.0,0.0)
 cart_ptp("bottle_down",100.0,100.0,0.0,"Flange")
 set_do("grab",True)
 cart_ptp("bottle_up_xyz",100.0,100.0,0.0,"Flange")
-joint_ptp("home",100.0,100.0,0.0)
-# PUT HERE ROTATION OF BOTTLE
+# ROTATION OF BOTTLE
+for _ in range(5):
+    joint_ptp("bottle_rotate_1", 100.0, 100.0, 5)
+    joint_ptp("bottle_rotate_2", 100.0, 100.0, 5)
+    joint_ptp("bottle_rotate_3", 100.0, 100.0, 5)
+    joint_ptp("bottle_rotate_4", 100.0, 100.0, 5)
+    joint_ptp("bottle_rotate_1", 100.0, 100.0, 5)
 joint_ptp("bottle_up",100.0,100.0,0.0)
 cart_ptp("bottle_down",100.0,100.0,0.0,"Flange")
 set_do("grab",False)

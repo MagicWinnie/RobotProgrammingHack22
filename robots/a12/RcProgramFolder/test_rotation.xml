@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalData>
+	<Points/>
+	<Joints>
+		<Joint name="bottle_rotate_1">
+			<DateChanged>2022-10-06T17:31:19</DateChanged>
+			<JointsValue>
+				<double>0</double>
+				<double>-4.9388429752066116</double>
+				<double>-16.524297520661154</double>
+				<double>0</double>
+				<double>-3.6855000000000002</double>
+				<double>0.0089999999999999993</double>
+			</JointsValue>
+		</Joint>
+		<Joint name="home">
+			<DateChanged>2022-10-06T17:32:01</DateChanged>
+			<JointsValue>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+				<double>0</double>
+			</JointsValue>
+		</Joint>
+		<Joint name="bottle_rotate_2">
+			<DateChanged>2022-10-06T17:35:33</DateChanged>
+			<JointsValue>
+				<double>0</double>
+				<double>-4.4895867768595039</double>
+				<double>-20.267107438016527</double>
+				<double>0</double>
+				<double>15.534000000000001</double>
+				<double>-35.976599999999998</double>
+			</JointsValue>
+		</Joint>
+		<Joint name="bottle_rotate_4">
+			<DateChanged>2022-10-06T17:36:14</DateChanged>
+			<JointsValue>
+				<double>0</double>
+				<double>-4.4895867768595039</double>
+				<double>-20.267107438016527</double>
+				<double>0</double>
+				<double>15.534000000000001</double>
+				<double>35.978400000000001</double>
+			</JointsValue>
+		</Joint>
+		<Joint name="bottle_rotate_3">
+			<DateChanged>2022-10-06T17:37:27</DateChanged>
+			<JointsValue>
+				<double>0</double>
+				<double>-1.7152066115702478</double>
+				<double>-22.700826446280992</double>
+				<double>0</double>
+				<double>39.147000000000006</double>
+				<double>0</double>
+			</JointsValue>
+		</Joint>
+	</Joints>
+</LocalData>
