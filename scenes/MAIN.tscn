@@ -85,15 +85,15 @@ executive_devices/1/delete_device = null
 [node name="working_area" parent="." instance=ExtResource( 4 )]
 
 [node name="bottle" parent="." instance=ExtResource( 5 )]
-transform = Transform( 1, 0.000111878, 0.000372554, -0.000111537, 1, -0.000160217, -0.000372517, 0.000160056, 1, 799.828, 193.864, -250.062 )
+transform = Transform( 1, 0.000119656, 0.000319236, -0.000119317, 1, -0.000154557, -0.000319345, 0.000154467, 1, 799.839, 193.981, -250.052 )
 
 [node name="tripod" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1200, 205, 235 )
 
 [node name="tube" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 0.000195523, -0.000364042, -0.000194861, 1, 0.000491637, 0.000364147, -0.000491617, 1, 1199.64, 201.65, 310.196 )
+transform = Transform( 1, 0.000203842, -0.000390083, -0.000203064, 1, 0.00055041, 0.000390196, -0.000550373, 1, 1199.61, 201.514, 310.226 )
 
 [node name="tube2" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, -4.67616e-05, 0.000238192, 4.69154e-05, 1, -0.000277726, -0.000238231, 0.000277754, 1, 1200.43, 201.827, 159.911 )
+transform = Transform( 1, -4.54824e-05, 0.00022287, 4.56439e-05, 1, -0.000322817, -0.000222904, 0.00032285, 1, 1200.44, 201.905, 159.912 )
 
 [editable path="a12_1450"]

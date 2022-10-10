@@ -20,7 +20,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="hackaton"
+config/name="chameleon_vision_task1"
+config/description="Solution of task 1 by team Chameleon Vision"
 config/icon="res://icon.png"
 
 [rendering]
