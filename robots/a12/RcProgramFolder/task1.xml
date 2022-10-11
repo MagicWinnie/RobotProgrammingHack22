@@ -51,39 +51,14 @@
 			<TeachTool>Flange</TeachTool>
 			<DateChanged>2022-10-06T21:37:17</DateChanged>
 		</Point>
-		<Point name="tube_1_up_xyz">
-			<coord>
-				<Xmm>1083.7723243214177</Xmm>
-				<Ymm>-309.93870442251767</Ymm>
-				<Zmm>413.46888922685258</Zmm>
-				<RxDeg>0</RxDeg>
-				<RyDeg>-89.987210694029471</RyDeg>
-				<RzDeg>-179.99222549616641</RzDeg>
-			</coord>
-			<Configuration>
-				<Params>
-					<RestraintParam>
-						<Name>Bend</Name>
-						<Value>001</Value>
-					</RestraintParam>
-					<RestraintParam>
-						<Name>Revolution</Name>
-						<Value>0;0;0;0;0;0;</Value>
-					</RestraintParam>
-				</Params>
-			</Configuration>
-			<SC>0</SC>
-			<TeachTool>Flange</TeachTool>
-			<DateChanged>2022-10-06T10:38:53</DateChanged>
-		</Point>
 		<Point name="tube_2_up_xyz">
 			<coord>
-				<Xmm>1083.7938729856003</Xmm>
-				<Ymm>-160.33439705764027</Ymm>
-				<Zmm>413.33486716569718</Zmm>
+				<Xmm>1083.79</Xmm>
+				<Ymm>-160.34</Ymm>
+				<Zmm>348.58999999999997</Zmm>
 				<RxDeg>0</RxDeg>
-				<RyDeg>-89.969361470880983</RyDeg>
-				<RzDeg>-179.98581435410864</RzDeg>
+				<RyDeg>-89.970000000002543</RyDeg>
+				<RzDeg>-179.99000000000001</RzDeg>
 			</coord>
 			<Configuration>
 				<Params>
@@ -99,7 +74,32 @@
 			</Configuration>
 			<SC>0</SC>
 			<TeachTool>Flange</TeachTool>
-			<DateChanged>2022-10-06T11:12:33</DateChanged>
+			<DateChanged>2022-10-11T20:28:24</DateChanged>
+		</Point>
+		<Point name="tube_1_up_xyz">
+			<coord>
+				<Xmm>1083.773945669403</Xmm>
+				<Ymm>-309.94172471400759</Ymm>
+				<Zmm>348.59117906852487</Zmm>
+				<RxDeg>0</RxDeg>
+				<RyDeg>-89.985010716353543</RyDeg>
+				<RzDeg>-179.99072230165498</RzDeg>
+			</coord>
+			<Configuration>
+				<Params>
+					<RestraintParam>
+						<Name>Bend</Name>
+						<Value>001</Value>
+					</RestraintParam>
+					<RestraintParam>
+						<Name>Revolution</Name>
+						<Value>0;0;0;0;0;0;</Value>
+					</RestraintParam>
+				</Params>
+			</Configuration>
+			<SC>0</SC>
+			<TeachTool>Flange</TeachTool>
+			<DateChanged>2022-10-11T20:28:18</DateChanged>
 		</Point>
 		<Point name="bottle_down">
 			<coord>
@@ -126,31 +126,6 @@
 			<TeachTool>Flange</TeachTool>
 			<DateChanged>2022-10-06T11:16:15</DateChanged>
 		</Point>
-		<Point name="bottle_up_xyz">
-			<coord>
-				<Xmm>682.34570684479172</Xmm>
-				<Ymm>249.78342547830005</Ymm>
-				<Zmm>494.49139992963381</Zmm>
-				<RxDeg>0</RxDeg>
-				<RyDeg>-89.96224468912736</RyDeg>
-				<RzDeg>-179.99641740511422</RzDeg>
-			</coord>
-			<Configuration>
-				<Params>
-					<RestraintParam>
-						<Name>Bend</Name>
-						<Value>001</Value>
-					</RestraintParam>
-					<RestraintParam>
-						<Name>Revolution</Name>
-						<Value>0;0;0;0;0;0;</Value>
-					</RestraintParam>
-				</Params>
-			</Configuration>
-			<SC>0</SC>
-			<TeachTool>Flange</TeachTool>
-			<DateChanged>2022-10-06T11:16:47</DateChanged>
-		</Point>
 	</Points>
 	<Joints>
 		<Joint name="home">
@@ -164,30 +139,30 @@
 				<double>0</double>
 			</JointsValue>
 		</Joint>
+		<Joint name="tube_2_up">
+			<DateChanged>2022-10-11T20:28:45</DateChanged>
+			<JointsValue>
+				<double>-9.846446280991735</double>
+				<double>37.182644628099169</double>
+				<double>-6.4576859504132234</double>
+				<double>-14.109504950495051</double>
+				<double>44.548499999999997</double>
+				<double>10.151999999999999</double>
+			</JointsValue>
+		</Joint>
 		<Joint name="tube_1_up">
-			<DateChanged>2022-10-06T10:34:04</DateChanged>
+			<DateChanged>2022-10-11T20:28:38</DateChanged>
 			<JointsValue>
 				<double>-18.547438016528922</double>
-				<double>35.717355371900823</double>
-				<double>-0.75867768595041318</double>
-				<double>-29.432673267326731</double>
-				<double>40.341000000000001</double>
-				<double>23.266800000000003</double>
+				<double>40.095371900826443</double>
+				<double>-1.3209917355371901</double>
+				<double>-26.885940594059402</double>
+				<double>44.700000000000003</double>
+				<double>19.814399999999999</double>
 			</JointsValue>
 		</Joint>
-		<Joint name="tube_2_up">
-			<DateChanged>2022-10-06T10:34:54</DateChanged>
-			<JointsValue>
-				<double>-9.7512396694214871</double>
-				<double>32.55471074380165</double>
-				<double>-5.9280991735537194</double>
-				<double>-15.433663366336635</double>
-				<double>39.526499999999999</double>
-				<double>12.015000000000001</double>
-			</JointsValue>
-		</Joint>
-		<Joint name="ver2_2">
-			<DateChanged>2022-10-07T21:23:49</DateChanged>
+		<Joint name="pour_2">
+			<DateChanged>2022-10-11T20:36:23</DateChanged>
 			<JointsValue>
 				<double>17.199669421487602</double>
 				<double>-14.904297520661157</double>
@@ -197,8 +172,8 @@
 				<double>0</double>
 			</JointsValue>
 		</Joint>
-		<Joint name="ver2_1">
-			<DateChanged>2022-10-07T21:21:35</DateChanged>
+		<Joint name="pour_1">
+			<DateChanged>2022-10-11T20:35:45</DateChanged>
 			<JointsValue>
 				<double>16.997355371900827</double>
 				<double>-25.341322314049588</double>
@@ -208,8 +183,8 @@
 				<double>0</double>
 			</JointsValue>
 		</Joint>
-		<Joint name="ver2_3">
-			<DateChanged>2022-10-07T21:27:50</DateChanged>
+		<Joint name="pour_3">
+			<DateChanged>2022-10-11T20:37:11</DateChanged>
 			<JointsValue>
 				<double>17.199669421487602</double>
 				<double>16.106280991735538</double>
